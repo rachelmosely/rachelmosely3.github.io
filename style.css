@@ -560,7 +560,7 @@ nav button:hover {
 
 .suites {
     padding: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .king, .double, .jrsuite, .srsuite {
@@ -761,6 +761,7 @@ input {
 
 /*ROOMS CSS END*/
 
+
 /*AMENITIES CSS START*/
 
 /*AMENITIES CSS*/
@@ -888,7 +889,7 @@ nav button:hover {
 
 .amenitiesrow {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding: 2%;
     text-align: center;
     display: flex;
