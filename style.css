@@ -559,6 +559,7 @@ nav button:hover {
 
 .suites {
     padding: 2%;
+    margin-bottom: 2%;
 }
 
 .king, .double, .jrsuite, .srsuite {
@@ -886,7 +887,7 @@ nav button:hover {
 
 .amenitiesrow {
     margin-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding: 2%;
     text-align: center;
     display: flex;
