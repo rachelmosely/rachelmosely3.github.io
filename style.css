@@ -2,7 +2,7 @@ body {
     margin: 0%;
 }
 
-<--- /*HOMEPAGE CSS START*/ --->
+/*HOMEPAGE CSS START*/
 
 /*CUSTOM COLORS
 TANGERINE: #ff571a
@@ -101,7 +101,7 @@ nav button:hover {
 .hero {
     margin: 25px 0px 50px 0px;
     padding: 30%;
-    background-image: url(images/home-anchor/*new/helena-yankovska-436593-unsplash.jpg);
+    background-image: url(images/home-anchor/helena-yankovska-436593-unsplash.jpg);
     background-size: 100%;
 }
 
@@ -376,10 +376,11 @@ input {
     border: none;}
 
 
-<--- /*HOMEPAGE CSS END*/ --->
+/*HOMEPAGE CSS END*/
 
 
-<--- /*ROOMS CSS START*/ --->
+
+/*ROOMS CSS START*/
 
 /*ROOMS CSS*/
 
@@ -756,9 +757,9 @@ input {
     border: none;}
 
 
-<---/*ROOMS CSS END*/--->
+/*ROOMS CSS END*/
 
-<---/*AMENITIES CSS START*/--->
+/*AMENITIES CSS START*/
 
 /*AMENITIES CSS*/
 
@@ -1126,12 +1127,12 @@ input {
 .footersitemap, .footercontact, .footerpress, .footersocial {
     border: none;}
 
-<---/*AMENITIES CSS END*/--->
+/*AMENITIES CSS END*/
 
 
 
 
-<---/*RESTAURANT CSS START*/--->
+/*RESTAURANT CSS START*/
 /*RESTAURANT CSS*/
 
 /*CUSTOM COLORS
@@ -1507,12 +1508,11 @@ input {
 
 
 
-<---/*RESTAURANT CSS END*/--->
+/*RESTAURANT CSS END*/
 
 
 
-<---/*BOOKING CSS START*/--->
-/*BOOKING CSS*/
+/*BOOKING CSS START*/
 
 /*CUSTOM COLORS
 TANGERINE: #ff571a
@@ -1937,7 +1937,7 @@ input {
 .footersitemap, .footercontact, .footerpress, .footersocial {
     border: none;}
 
-<---/*BOOKING CSS END*/--->
+/*BOOKING CSS END*/
 
 
 
