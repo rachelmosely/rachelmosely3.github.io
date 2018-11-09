@@ -1,0 +1,1943 @@
+body {
+    margin: 0%;
+}
+
+<--- /*HOMEPAGE CSS START*/ --->
+
+/*CUSTOM COLORS
+TANGERINE: #ff571a
+OFF-TANGERINE: #ff6933
+DARK TANGERINE: #e63d00
+DARK GREEN (footer): #1b322b
+MED DARK GREEN (room pic border): #263f40
+LIGHT AQUA (footer): #a3dcd3
+*/
+
+body {
+min-width: 600px;
+margin: 0%;
+}
+
+.siteheader {
+    padding: 10px 0px 10px 1px;
+    text-align: center;
+    font-family: 'Lobster Two', serif;
+    font-size: 20px;
+    border-top: 10px solid darkcyan;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.siteheader a {
+    color: black;
+  }
+
+
+
+
+nav {
+    background-color: white;
+    padding: 2px 1px;
+    margin-top: 10px;
+    font-family: 'Reem Kufi' , sans-serif;  
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+
+
+nav a:hover {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+
+
+nav button {
+    background-color: cadetblue;
+    border: 2px cadetblue solid;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+
+nav button:hover {
+    border: 2px solid #ff571a;
+    border-radius: 4px;
+    text-decoration-color: #ff571a;
+    background-color: #ff571a;
+}
+
+
+
+.hero {
+    margin: 25px 0px 50px 0px;
+    padding: 30%;
+    background-image: url(images/home-anchor/*new/helena-yankovska-436593-unsplash.jpg);
+    background-size: 100%;
+}
+
+
+.about {
+    margin: 25px 0px;
+    padding: 2% 20%;
+    text-align: center;
+    font-family: 'Josefin Sans' , sans-serif;
+    color: #1b322b;
+    line-height: 3;
+}
+
+
+
+.linkouts {
+    border: none;
+    background-color: white;
+}
+
+
+.rooms, .amenities, .dining, .reservations {
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', serif;
+}
+
+
+.rooms button, .amenities button, .dining button, .reservations button {    
+    background-color: white;
+    border: 2px cadetblue solid;
+    border-radius: 4px;
+    padding: 30px 60px;
+    cursor: pointer;
+    font-family: 'Josefin Sans' , serif;
+    font-size: 16px;
+    color: darkcyan;
+}
+
+
+.rooms button:hover, .amenities button:hover, .dining button:hover, .reservations button:hover 
+{    
+    background-color: cadetblue;
+    border: 2px cadetblue solid;
+    border-radius: 4px;
+    padding: 30px 60px;
+    cursor: pointer;
+    font-family: 'Josefin Sans' , serif;
+    font-size: 16px;
+    color: white;
+}
+
+
+button:focus {
+    outline: 0;
+}
+
+
+.rooms {
+    justify-content: flex-start;
+}
+
+.rooms img {
+    width: 50%;
+}
+
+.rooms button {
+    margin-left: 130%;
+    cursor: pointer;
+}
+
+
+.amenities {
+    justify-content: flex-end;
+}
+
+
+.amenities img {
+    width: 50%;
+    margin-left: 15%;
+}
+
+
+.amenities button {
+    cursor: pointer;
+}
+
+
+
+.dining {
+    justify-content: flex-start;    
+}
+
+
+.dining img {
+    width: 50%;
+}
+
+
+
+.dining button {
+    margin-left: 135%;
+    cursor: pointer;
+}
+
+
+
+.reservations {
+    padding: 15% 0%;
+    justify-content: center;
+}
+
+
+.reservations button {
+    padding: 30px 75px; 
+    background-color: #ff571a;
+    border-color: #ff571a;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+}
+
+.reservations button:hover {
+    padding: 30px 75px;
+    background-color: #ff6933;
+    border-color: #ff571a;
+    border-radius: 4px;
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+
+.emailform {
+    font-family: 'Josefin Sans' , sans-serif;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+input {
+    color: grey;
+    font-family: 'Reem Kufi' , sans-serif;
+}
+
+
+.signup {
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+    padding: 1%;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.signup a {
+    text-decoration: none;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    color: white;
+    font-size: 14px;
+}
+
+
+.signup:hover {
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: underline;
+    text-decoration-color: coral;
+}
+
+
+.subscribe input {
+    padding: 2% 10% 2% 2%;
+    color: black;
+}
+
+
+.footer {
+    border-top: 8px solid darkcyan;
+    padding: 2%;
+    background-color: #1b322b;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer h4 {
+    font-family: 'Josefin Sans' , sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color:  #a3dcd3;
+    margin-bottom: 12px;
+}
+
+.footer ul  {
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.footer li, .footer p {
+    font-family: 'Reem Kufi' , 'sans-serif';
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.footer img {
+   width: auto;
+}
+
+
+.footersitemap a {
+    color: white;
+    text-decoration: none;
+}
+
+.footersitemap a:hover {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+
+.footersitemap h4 a {
+    color: #a3dcd3;
+}
+
+.footersitemap h4 a:hover {
+    text-decoration: none;
+    color: #a3dcd3;
+}
+
+
+
+.footercontact a, .footerpress a {
+    color: #ff571a;
+}
+
+
+.footersocial ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footersocial ul , .footersocial p {
+    padding: 0px;
+}
+
+.footersocial ul {
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.footersocial h4 {
+    margin-bottom: 8%;
+}
+
+.footersocial p {
+    margin-top: 0px;
+}
+
+.footersocial a {
+    text-decoration: none;
+}
+
+.footersitemap, .footercontact, .footerpress, .footersocial {
+    border: none;}
+
+
+<--- /*HOMEPAGE CSS END*/ --->
+
+
+<--- /*ROOMS CSS START*/ --->
+
+/*ROOMS CSS*/
+
+/*CUSTOM COLORS
+TANGERINE: #ff571a
+OFF-TANGERINE: #ff6933
+DARK TANGERINE: #e63d00
+DARK GREEN (footer): #1b322b
+MED DARK GREEN (room pic border): #263f40
+LIGHT AQUA (footer): #a3dcd3
+*/
+
+body {
+min-width: 600px;
+margin: 0%;
+}
+
+button:focus {
+    outline: 0;
+}
+
+
+.siteheader {
+    padding: 10px 0px 10px 1px;
+    text-align: center;
+    font-family: 'Lobster Two', serif;
+    font-size: 20px;
+    border-top: 10px solid darkcyan;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.siteheader a {
+    color: black;
+  }
+
+
+nav {
+    background-color: white;
+    padding: 2px 1px;
+    margin-top: 10px;
+    font-family: 'Reem Kufi' , sans-serif;  
+    border: none;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+
+
+nav a:hover {
+    color: #ff571a;
+    border-bottom: 2px solid #ff571a;
+}
+
+.navrooms {
+    border-bottom: 2px solid #ff571a;
+    
+}
+
+.navrooms:hover {
+    border-bottom: 2px solid #ff571a;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: cadetblue;
+    border: 2px cadetblue solid;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+
+nav button:hover {
+    background-color: #ff6933;
+    border: 2px #ff6933 solid;
+    color: white;
+}
+
+
+.roomshero {
+    border: none;
+    padding: 15% 25% 40% 23%;
+    margin-top: 24px;
+    background-image: url(images/rooms/greeneryroom.jpg);
+    background-size: 100%;
+    font-family: 'Josefin Sans' , sans-serif;
+    font-size: 20px;
+    letter-spacing: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;  
+}
+
+
+
+
+.aboutrooms {
+    padding: 10% 0% 15% 0%;
+    font-family: 'Josefin Sans' , sans-serif;
+    text-align: center;
+    line-height: 3;
+    background-color: mintcream;
+    color: darkcyan;
+}
+
+.aboutrooms p {
+    padding: 2% 0% 0% 0%;
+}
+
+.featuresintro {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: darkcyan;
+}
+
+
+.roomfeatures {
+    padding: 0% 20%;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.5px;
+}
+
+
+.roomfeatures ul {
+    list-style-type: none;
+    text-align: center;
+    line-height: 2;
+    font-size: 16px;
+    color: cadetblue;
+    text-align: center;
+    padding: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+.guestrooms, .suites {
+    display: flex;
+}
+
+
+.guestrooms {
+    padding: 0% 2% 2% 2%;
+}
+
+.suites {
+    padding: 2%;
+}
+
+.king, .double, .jrsuite, .srsuite {
+    text-align: center;
+    flex: 1;
+}
+
+
+.king h3, .double h3, .jrsuite h3, .srsuite h3 {
+    text-align: center;
+    font-family: 'Lobster Two' , sans-serif;
+    font-size: 24px;
+}
+
+.king a, .double a, .jrsuite a, .srsuite a {
+    color: black;
+    text-decoration: none;
+}
+
+.king p, .double p, .jrsuite p, .srsuite p{
+    text-align: center;
+    font-family: 'Josefin Sans' , sans-serif;
+    flex: 1;
+}
+
+
+
+.king img, .double img {
+    width: 100%;
+}
+
+
+.jrsuite img, .srsuite img {
+    width: 100%;
+}
+
+
+.king img, .jrsuite img {
+    border-right: 1px solid #263f40;
+    margin-right: 5px;
+}
+
+
+.double img, .srsuite img {
+    border-left: 1px solid #263f40;
+    margin-left: 5px;
+
+}
+
+.emailform {
+    font-family: 'Josefin Sans' , sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+input {
+    color: grey;
+    font-family: 'Reem Kufi' , sans-serif;
+}
+
+
+
+.signup {
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+    padding: 1%;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.signup a {
+    text-decoration: none;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    color: white;
+    font-size: 14px;
+}
+
+
+.signup:hover {
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: underline;
+    text-decoration-color: coral;
+}
+
+
+.subscribe input {
+    padding: 2% 10% 2% 2%;
+    color: black;
+}
+
+
+
+
+.footer {
+    border-top: 8px solid darkcyan;
+    padding: 2%;
+    background-color: #1b322b;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer h4 {
+    font-family: 'Josefin Sans' , sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color:  #a3dcd3;
+    margin-bottom: 12px;
+}
+
+.footer ul  {
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.footer li, .footer p {
+    font-family: 'Reem Kufi' , 'sans-serif';
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.footer img {
+   width: auto;
+}
+
+
+.footersitemap a {
+    color: white;
+    text-decoration: none;
+}
+
+.footersitemap h4 a {
+    color: #a3dcd3;
+}
+
+.footersitemap h4 a:hover {
+    text-decoration: none;
+    color: #a3dcd3;
+}
+
+
+.footersitemap a:hover {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+.footerrooms a {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+
+.footercontact a, .footerpress a {
+    color: #ff571a;
+}
+
+
+.footersocial ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footersocial ul , .footersocial p {
+    padding: 0px;
+}
+
+.footersocial ul {
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.footersocial h4 {
+    margin-bottom: 8%;
+}
+
+.footersocial p {
+    margin-top: 0px;
+}
+
+.footersocial a {
+    text-decoration: none;
+}
+
+.footersitemap, .footercontact, .footerpress, .footersocial {
+    border: none;}
+
+
+<---/*ROOMS CSS END*/--->
+
+<---/*AMENITIES CSS START*/--->
+
+/*AMENITIES CSS*/
+
+
+/*CUSTOM COLORS
+TANGERINE: #ff571a
+OFF-TANGERINE: #ff6933
+DARK TANGERINE: #e63d00
+DARK GREEN (footer): #1b322b
+MED DARK GREEN (room pic border): #263f40
+LIGHT AQUA (footer): #a3dcd3
+*/
+
+
+body {
+    min-width: 600px;
+    margin: 0%;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.siteheader {
+    padding: 10px 0px 10px 1px;
+    text-align: center;
+    font-family: 'Lobster Two', serif;
+    font-size: 20px;
+    border-top: 10px solid darkcyan;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.siteheader a {
+    color: black;
+  }
+
+
+nav {
+    background-color: white;
+    padding: 2px 1px;
+    margin-top: 10px;
+    font-family: 'Reem Kufi' , sans-serif;  
+    border: none;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+
+
+nav a:hover {
+    color: #ff571a;
+    border-bottom: 2px solid #ff571a;
+}
+
+.navamenities {
+    border-bottom: 2px solid #ff571a;
+    
+}
+
+.nav:hover {
+    border-bottom: 2px solid #ff571a;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: cadetblue;
+    border: 2px cadetblue solid;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+
+nav button:hover {
+    background-color: #ff6933;
+    border: 2px #ff6933 solid;
+    color: white;
+}
+
+
+
+.amenitieshero {
+    padding: 23% 25% 35% 25%;
+    background-image: url(images/amenities/pool/toa-heftiba-poolsidebar.jpg);
+    font-family: 'Josefin Sans' , sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    background-size: 100%;
+    color: whitesmoke;
+}
+
+
+
+.amenitiesrow {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.pool, .spa, .business, .transport {
+    padding: 2%;
+    border-top: 1px solid cadetblue;
+    border-bottom: 1px solid cadetblue;
+    text-align: left;
+    align-content: center;
+}
+
+
+
+.pool {
+    border-left: 1px solid cadetblue;
+}
+
+.transport {
+    border-right: 1px solid cadetblue;
+}
+
+.pool, .spa, .business {
+    border-right: 2px solid cadetblue; 
+}
+
+
+.pool h5, .spa h5, .business h5, .transport h5 {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans' , serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ff571a;
+    text-decoration: underline;
+    text-decoration-color: darkcyan;
+}
+
+
+.pool h3, .spa h3, .business h3, .transport h3 {
+    font-family: 'Lobster Two' , serif;
+    font-size: 24px;
+    font-weight: 200px;  
+}
+
+
+.pool p, .spa p, .business p, .transport p {
+    font-family: 'Josefin Sans' , serif;
+    font-weight: 500; 
+}
+
+
+.pool {
+    flex: 1
+}
+
+.pool img {
+    width: 100%;
+}
+
+
+.spa {
+    flex: 1;
+}
+
+.spa img {
+    width: 100%;
+}
+
+
+.business {
+    flex: 1;
+}
+
+.business img {
+    width: 100%;
+}
+
+
+.transport {
+    flex: 1;
+}
+
+.transport img {
+    width: 100%;
+}
+
+
+
+.emailform {
+    font-family: 'Josefin Sans' , sans-serif;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+
+input {
+    color: grey;
+    font-family: 'Reem Kufi' , sans-serif;
+}
+
+
+.signup {
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+    padding: 1%;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.signup a {
+    text-decoration: none;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    color: white;
+    font-size: 14px;
+}
+
+
+.signup:hover {
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: underline;
+    text-decoration-color: coral;
+}
+
+
+.subscribe input {
+    padding: 2% 10% 2% 2%;
+    color: black;
+}
+
+
+
+.footer {
+    border-top: 8px solid darkcyan;
+    padding: 2%;
+    background-color: #1b322b;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;   
+}
+
+
+.footer h4 {
+    font-family: 'Josefin Sans' , sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color:  #a3dcd3;
+    margin-bottom: 12px;
+}
+
+.footer ul  {
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.footer li, .footer p {
+    font-family: 'Reem Kufi' , 'sans-serif';
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.footer img {
+   width: auto;
+}
+
+
+.footersitemap a {
+    color: white;
+    text-decoration: none;
+}
+
+.footersitemap h4 a {
+    color: #a3dcd3;
+}
+
+
+.footersitemap h4 a:hover {
+    text-decoration: none;
+    color: #a3dcd3;
+}
+
+
+.footersitemap a:hover {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+.footeramenities a {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+
+.footercontact a, .footerpress a {
+    color: #ff571a;
+}
+
+
+.footersocial ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footersocial ul , .footersocial p {
+    padding: 0px;
+}
+
+.footersocial ul {
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.footersocial h4 {
+    margin-bottom: 8%;
+}
+
+.footersocial p {
+    margin-top: 0px;
+}
+
+.footersocial a {
+    text-decoration: none;
+}
+
+.footersitemap, .footercontact, .footerpress, .footersocial {
+    border: none;}
+
+<---/*AMENITIES CSS END*/--->
+
+
+
+
+<---/*RESTAURANT CSS START*/--->
+/*RESTAURANT CSS*/
+
+/*CUSTOM COLORS
+TANGERINE: #ff571a
+OFF-TANGERINE: #ff6933
+DARK TANGERINE: #e63d00
+DARK GREEN (footer): #1b322b
+MED DARK GREEN (room pic border): #263f40
+LIGHT AQUA (footer): #a3dcd3
+*/
+
+
+body {
+    min-width: 600px;
+    margin: 0%;
+}
+
+
+button:focus {
+    outline: 0;
+}
+
+.siteheader {
+    padding: 10px 0px 10px 1px;
+    text-align: center;
+    font-family: 'Lobster Two', serif;
+    font-size: 20px;
+    border-top: 10px solid darkcyan;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.siteheader a {
+    color: black;
+  }
+
+
+nav {
+    background-color: white;
+    padding: 2px 1px;
+    margin-top: 10px;
+    font-family: 'Reem Kufi' , sans-serif;
+    border: none;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+
+
+nav a:hover {
+    color: #ff571a;
+    border-bottom: 2px solid #ff571a;
+}
+
+.navamenities {
+    border-bottom: 2px solid #ff571a;   
+}
+
+.navdining {
+    border-bottom: 2px solid #ff571a;
+    
+}
+
+.navdining:hover {
+    border-bottom: 2px solid #ff571a;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: cadetblue;
+    border: 2px cadetblue solid;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+
+nav button:hover {
+    background-color: #ff6933;
+    border: 2px #ff6933 solid;
+    color: white;
+}
+
+
+.foodhero {
+    margin-top: 3%;
+    padding: 12% 50% 40% 5%;
+    background-image: url(images/food/raspberrytoast.jpg);
+    background-size: 100%;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans' , sans-serif;
+    font-size: 22px;
+    letter-spacing: 15px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.foodhero h1 {
+    position: static;
+}
+
+
+.foodinfo {
+    margin-top: 45px;
+    display: flex;
+}
+
+
+.foodinfo img {
+    width: 75%;
+}
+
+.foodimage {
+    border: 1px solid #ff571a;
+    flex: 1;
+    padding: 0px 200px;
+    margin-left: 15%;
+    background-image: url(images/food/mintgreenbooth.jpg);
+    background-size: cover;
+}
+
+.foodtext {
+    border: 1px solid #ff571a;
+    flex: 2;
+    margin-right: 15%;
+    padding: 2%;
+    font-family: 'Josefin Sans' , serif;
+    line-height: 2;
+    text-align: center;
+}
+
+
+.menu {
+    padding: 10% 0% 0% 0%;
+}
+
+.menu h2 {
+    margin-left: 45%;
+    font-family: 'Lobster Two' , sans-serif;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+.menutypeborder {
+    border-top: 2px solid coral;
+    border-bottom: 1.5px solid coral;
+    padding: 1%;
+    margin-right: 20%;
+    margin-left: 20%;
+    
+}
+
+.menutype1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 27%;
+    margin-left: 25%;
+    padding: 0px;
+}
+
+
+.menutype2 {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 27%;
+    margin-left: 29%; 
+    padding: 0px;
+}
+
+
+.menu a {
+    font-family: 'Reem Kufi' , sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid coral;
+    border-top: 1px solid coral;
+}
+
+.foodhero2 {
+    padding: 12%;
+    border:none;
+}
+
+
+.foodhero2 img {
+    width: 100%;
+}
+
+
+
+.emailform {
+    font-family: 'Josefin Sans' , sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+input {
+    color: grey;
+    font-family: 'Reem Kufi' , sans-serif;
+}
+
+
+
+.signup {
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+    padding: 1%;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.signup a {
+    text-decoration: none;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    color: white;
+    font-size: 14px;
+}
+
+
+.signup:hover {
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: underline;
+    text-decoration-color: coral;
+}
+
+
+.subscribe input {
+    padding: 2% 10% 2% 2%;
+    color: black;
+}
+
+
+
+
+.footer {
+    border-top: 8px solid darkcyan;
+    padding: 2%;
+    background-color: #1b322b;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer h4 {
+    font-family: 'Josefin Sans' , sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color:  #a3dcd3;
+    margin-bottom: 12px;
+}
+
+.footer ul  {
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.footer li, .footer p {
+    font-family: 'Reem Kufi' , 'sans-serif';
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.footer img {
+   width: auto;
+}
+
+
+.footersitemap a {
+    color: white;
+    text-decoration: none;
+}
+
+.footersitemap h4 a {
+    color: #a3dcd3;
+}
+
+.footersitemap h4 a:hover {
+    text-decoration: none;
+    color: #a3dcd3;
+}
+
+
+.footersitemap a:hover {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+.footerfood a {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+
+.footercontact a, .footerpress a {
+    color: #ff571a;
+}
+
+
+.footersocial ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footersocial ul , .footersocial p {
+    padding: 0px;
+}
+
+.footersocial ul {
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.footersocial h4 {
+    margin-bottom: 8%;
+}
+
+.footersocial p {
+    margin-top: 0px;
+}
+
+.footersocial a {
+    text-decoration: none;
+}
+
+.footersitemap, .footercontact, .footerpress, .footersocial {
+    border: none;
+}
+
+
+
+<---/*RESTAURANT CSS END*/--->
+
+
+
+<---/*BOOKING CSS START*/--->
+/*BOOKING CSS*/
+
+/*CUSTOM COLORS
+TANGERINE: #ff571a
+OFF-TANGERINE: #ff6933
+DARK TANGERINE: #e63d00
+DARK GREEN (footer): #1b322b
+MED DARK GREEN (room pic border): #263f40
+LIGHT AQUA (footer): #a3dcd3
+*/
+
+body {
+    min-width: 600px;
+    margin: 0%;
+}
+
+
+div {
+    font-family: sans-serif;
+}
+
+
+.siteheader {
+    padding: 10px 0px 10px 1px;
+    text-align: center;
+    font-family: 'Lobster Two', serif;
+    font-size: 20px;
+    border-top: 10px solid darkcyan;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.siteheader a {
+    color: black;
+  }
+
+
+nav {
+    background-color: white;
+    padding: 2px 1px;
+    margin-top: 10px;
+    font-family: 'Reem Kufi' , sans-serif;  
+    border: none;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+
+
+nav a:hover {
+    color: #ff571a;
+    border-bottom: 2px solid #ff571a;
+}
+
+.navbook {
+    border-bottom: 2px solid #ff571a;
+    
+}
+
+.navbook:hover {
+    border-bottom: 2px solid #ff571a;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: cadetblue;
+    border: 2px cadetblue solid;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+
+nav button:hover {
+    background-color: #ff6933;
+    border: 2px #ff6933 solid;
+    color: white;
+}
+
+
+input {
+    color: grey;
+    font-family: 'Reem Kufi' , sans-serif;
+}
+
+.reserveall {
+    border-top: 4px solid cadetblue;
+    border-bottom: 4px solid cadetblue;
+    background-color: mintcream;
+    margin-top: 2%;
+    padding: 2% 1%;
+    font-family: 'Josefin Sans' , sans-serif;
+ 
+}
+
+
+.guests-all-select {
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+.reserveall h3 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.reservealldates {
+    display: flex;  
+    justify-content: space-around;
+    flex: 1;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+.reserveall label {
+    font-family: 'Reem Kufi' , sans-serif;
+    font-size: 18px;
+}
+
+.checkin input, .checkout input {
+    border-width: 2px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: darkcyan;
+    background-color: mintcream;
+    font-size: 12px;
+}
+
+
+.guestsall input {
+    border-width: 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: darkcyan;
+    background-color: lavenderblush;
+
+}
+
+
+.checkin {
+    margin-left: 10%;
+}
+
+
+
+.guestsall {
+    margin-right: 10%;
+    display: flex;
+}
+
+
+
+.reserveallbutton {
+    text-align: center;
+}
+
+
+.check {
+    border: 1px solid darkcyan;
+    background-color: darkcyan;
+    border-radius: 4px;
+    padding: 15px 20px 12px 20px;
+    margin-left: 5px;
+    font-family: 'Josefin Sans' , 'sans-serif';
+    font-size: 12px;
+    font-weight: 400px;
+    color: white;
+    text-align: center;
+}
+
+
+.check:hover {
+    cursor: pointer;
+}
+
+
+.reserveindividual {
+    display: flex;
+    flex: 1;
+    margin-top: 5%;
+}
+
+
+.reserveindividual h3 {
+    font-family: 'Josefin Sans' , sans-serif;
+    font-weight: 600;
+}
+
+.reserveindividual img {
+    width: 100%;
+}
+
+.reserveindividual form {
+    font-size: 10px;
+}
+
+.reserveindividual label {
+    font-size: 14px;
+    font-family: 'Reem Kufi' , monospace;
+}
+
+.individualguests {
+    display: flex;
+    justify-content: center;
+}
+
+
+.guests-individual-select {
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+
+.reserveindividual button {
+    border: 2px solid darkcyan;
+    background-color: darkcyan;
+    padding: 7px 8px 6px 8px;
+    border-radius: 4px;
+    font-family: 'Josefin Sans' , 'sans-serif';
+    font-weight: 600;
+    color: white;
+}
+
+.reserveindividual button:hover {
+    cursor: pointer;
+}
+
+
+.reserveking, .reservedouble, .reservejrsuite, .reservesrsuite {
+    border: 1px solid cadetblue;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.reserveking, .reservedouble, .reservejrsuite {
+    margin-right: 10px;
+}
+
+.reserveindividual form , .reserveindividualguests, .reserveindividual button {
+    margin-top: 16px;
+}
+
+/*
+.reserveking form, .reservedouble form, .reservejrsuite form, .reservesrsuite form {
+    text-align: center;
+} */
+
+
+
+.emailform {
+    font-family: 'Josefin Sans' , sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.signup {
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+    padding: 1%;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.signup a {
+    text-decoration: none;
+    font-family: 'Reem Kufi' , sans-serif;
+    text-transform: lowercase;
+    color: white;
+    font-size: 14px;
+}
+
+
+.signup:hover {
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: underline;
+    text-decoration-color: coral;
+}
+
+
+.subscribe input {
+    padding: 2% 10% 2% 2%;
+    color: black;
+}
+
+
+
+
+.footer {
+    border-top: 8px solid darkcyan;
+    padding: 2%;
+    background-color: #1b322b;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer h4 {
+    font-family: 'Josefin Sans' , sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color:  #a3dcd3;
+    margin-bottom: 12px;
+}
+
+.footer ul  {
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.footer li, .footer p {
+    font-family: 'Reem Kufi' , 'sans-serif';
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.footer img {
+   width: auto;
+}
+
+
+.footersitemap a {
+    color: white;
+    text-decoration: none;
+}
+
+.footersitemap h4 a {
+    color: #a3dcd3;
+}
+
+.footersitemap h4 a:hover {
+    text-decoration: none;
+    color: #a3dcd3;
+}
+
+
+.footersitemap a:hover {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+.footerbook a {
+    color: #ff571a;
+    text-decoration: underline;
+}
+
+
+.footercontact a, .footerpress a {
+    color: #ff571a;
+}
+
+
+.footersocial ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footersocial ul , .footersocial p {
+    padding: 0px;
+}
+
+.footersocial ul {
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.footersocial h4 {
+    margin-bottom: 8%;
+}
+
+.footersocial p {
+    margin-top: 0px;
+}
+
+.footersocial a {
+    text-decoration: none;
+}
+
+.footersitemap, .footercontact, .footerpress, .footersocial {
+    border: none;}
+
+<---/*BOOKING CSS END*/--->
+
+
+
